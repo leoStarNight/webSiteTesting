@@ -1,0 +1,45 @@
+@import "../Variables/Variables.scss";
+
+.timelapse {
+    margin: $margin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timelapse-circle {
+    position: relative;
+    margin: auto;
+    width: calc($borderRadius*2);
+    height: calc($borderRadius*2);
+    border-radius:  $borderRadius;
+    border: $borderWeight solid black;
+}
+
+.timelapse-bunch {
+    position: absolute;
+}
+
+
+.timelapse-item {   
+    display: grid;
+    position: absolute;
+    align-content: center;
+    justify-content: center;
+    margin: -0.5vw;
+
+    width: $circleRadius;
+    height: $circleRadius;
+    border-radius: calc($circleRadius / 2);
+    background: bisque;
+
+    text-align: center;
+    font-size: 6pt; 
+
+    scale: 1;
+    user-select: none;
+}
+
+.data-screen {
+    position: absolute;
+}

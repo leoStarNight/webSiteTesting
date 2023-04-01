@@ -1,0 +1,23 @@
+@import "../Variables/Variables.scss";
+
+.slider {
+    width: 100%;
+    height: 20vw;
+}
+
+.slider-mobile {
+    width: 100%;
+    height: 175px;
+}
+
+.title {
+    font-size: 12pt;
+}
+
+.desc {
+    font-size: 10pt;
+}
+
+.swiper-slide {
+    min-width: 10vw;
+}

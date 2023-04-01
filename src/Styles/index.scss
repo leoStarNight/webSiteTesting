@@ -1,0 +1,28 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.block {
+    margin: 5vw auto;
+    display: grid;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 60%;
+    height: 18vw;
+}
+
+.upperBlock {
+    display: flex;
+}
+
+.upLeftBlock {
+    display: grid;
+    align-content: space-between;
+}
+
+.timelapse-mobile {
+    display: flex;
+    height: 50vw;
+    justify-content: center;
+    align-items: center;
+}

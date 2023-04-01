@@ -1,0 +1,42 @@
+.timelapse {
+  margin: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timelapse-circle {
+  position: relative;
+  margin: auto;
+  width: 30vw;
+  height: 30vw;
+  border-radius: 15vw;
+  border: 1px solid black;
+}
+
+.timelapse-bunch {
+  position: absolute;
+}
+
+.timelapse-item {
+  display: grid;
+  position: absolute;
+  align-content: center;
+  justify-content: center;
+  margin: -0.5vw;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background: bisque;
+  text-align: center;
+  font-size: 6pt;
+  scale: 1;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.data-screen {
+  position: absolute;
+}/*# sourceMappingURL=Timelapse.css.map */

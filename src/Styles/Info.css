@@ -1,0 +1,22 @@
+.buttonSlides {
+  display: flex;
+  justify-content: left;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.buttonSlides span {
+  background: bisque;
+  width: 2.5vw;
+  height: 2.5vw;
+  border-radius: 1.25vw;
+  border: 1px solid #000;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: 0.5vw;
+}
+.buttonSlides span p {
+  position: absolute;
+}/*# sourceMappingURL=Info.css.map */
